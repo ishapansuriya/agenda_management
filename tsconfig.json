@@ -1,0 +1,28 @@
+{
+    "compilerOptions": {
+      "resolveJsonModule": true,
+      "module": "commonjs",
+      "noImplicitReturns": true,
+      "noUnusedLocals": true,
+      "noUnusedParameters": true,
+      "outDir": "lib",
+      "sourceMap": true,
+      "esModuleInterop": true,
+      "strict": true,
+      "target": "es2021",
+      "types": [
+        "node",
+        "jest"
+
+      ],
+      "lib": [
+        "esnext.asynciterable", "es2021"
+      ],
+    },
+    "compileOnSave": true,
+    "include": [
+      "modules", "index.ts"
+    ],
+    "exclude": []
+  }
+  
